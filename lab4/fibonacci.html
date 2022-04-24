@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen"/>
+        <title>Laboratorio 4 JavaScript</title>
+    </head>
+    <body>
+      
+    <section class="sectionfibonacci">
+      <form id=" formfibonacci" class="fibonacciclassform">
+        <h1>Laboratorio 4 Fibonacci</h1> <br>
+        <p>Favor introduce un numero:</p>
+        <input id="num1">
+        <button type="button" onclick="secuencia()">Secuencia</button>
+        <p id="fibo"> </p> 
+      </form>
+    </section>
+    
+    <section id=" fibonaccicard" class="fiboclass">
+    </section>
+        
+    <script>
+      function secuencia(){
+      var num1;
+      const formfibonacciSubmitHandler=(e) =>{
+        e.preventDefault();
+      let cardNumber;
+      }
+      num1=document.getElementById("num1").value;
+      var fibonacci=[];
+      fibonacci[0] = 0;
+      fibonacci[1] = 1;
+      for (var i = 2; i < num1; i++) {
+         fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+      } 
+      //var numeros=document.getElementById("fibo").innerHTML= fibonacci;
+    }
+            
+    for (var a=0; a<num1; a++){
+      </script> 
+          
+      <div class="card">
+      <div class="container">
+        <h4><b>
+  
+        <script>
+        fibonacci[a];
+        </script> 
+      
+        </b></h4>
+      
+      <script>
+      const para = document.createElement("h4");
+      const node =document.createTextNode(numeros);
+      para.appendChild(node);
+      const element = document.getElementById("div1");
+      element.appendChild(para);
+    }
+    </script>
+    </div>
+    </div>   
+  </body>
+</html>
