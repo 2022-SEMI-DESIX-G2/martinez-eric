@@ -14,7 +14,7 @@
         },
         templates: {
             card: (b) => {
-               return '<div class="card">$b</div>';//${b}
+               return `<div class="card"/>${b}</div>`;
             }
         },
         handlers: {
